@@ -11,7 +11,7 @@ function Contact() {
     setAuthorized(auth)
   }
 
-  let login = (
+  let login = (  
     <form action="#" onSubmit={handleSubmit}>
     <input type="password" placeholder="password">
     </input>
